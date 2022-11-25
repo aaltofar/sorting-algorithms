@@ -3,13 +3,31 @@
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
+    width: 1550px;
+    height: 650px;
 }
 
 .bar{
-    background-color: tomato;
-    width: 7px;
+    background-color: #92A8D1;
+    width: 5px;
+    border-top: 5px solid black;
+    border-right: 0.1px solid black;
 }
 
 body {
-    background-color: black;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+#controller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
