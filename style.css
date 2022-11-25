@@ -23,11 +23,16 @@ body {
 }
 
 #controller{
+    margin-top: 550px;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.btnController{
+    display: flex;
+}
 
   
